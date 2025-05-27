@@ -1,4 +1,4 @@
-module github.com/qqru3ka/go-forum-shared
+module github.com/QQRu3Ka/go-forum-shared
 
 go 1.23.6
 

@@ -9,6 +9,7 @@ import (
 var logger *zerolog.Logger
 
 func InitLogger() {
+	zerolog.TimeFieldFormat = zerolog.TimeFormatUnix
 	l := zerolog.New(os.Stderr).With().Timestamp().Logger()
 	logger = &l
 }
